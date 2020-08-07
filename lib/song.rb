@@ -55,6 +55,7 @@ class Song
     song = self.new
     song.name = split_filename[1]
     song.artist_name = split_filename[0]
+    song.save
     song
   end
   
@@ -63,8 +64,8 @@ class Song
   def self.create_from_filename(file_name)
     self.new_from_filename(file_name)
     song = self.new
-    song.name.save
-    song.artist_name.save
+    song.name
+    song.artist_name
   end
   
   
