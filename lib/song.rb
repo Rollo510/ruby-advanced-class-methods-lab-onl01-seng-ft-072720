@@ -59,7 +59,6 @@ class Song
     song = self.new
       end
       song
-    end
   end
   
   
