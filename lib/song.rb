@@ -50,7 +50,7 @@ class Song
     song = self.new
     song.name =
     song.artist_name = 
-    self.all.each do |
+    
     
   end
   
